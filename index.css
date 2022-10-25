@@ -23,7 +23,7 @@ body {
   margin: 0;
 }
 .outer2 > div > p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* first section */
@@ -69,6 +69,12 @@ body {
 /* third section */
 .mailClass{
   font-size: 1.2rem;
+  color: black;
+}
+.iconsContainer > span > a > i{
+  font-size: 5em;
+  line-height: 1.03125em;
+  vertical-align: -0.1875em;
 }
 
 /* Media */
