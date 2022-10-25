@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Fjalla+One&display=swap'); */
+
+body {
+  background-color: #948b89;
+  font-family: "Comfortaa", cursive;
+}
+
+/* General class */
+.stanWidth {
+  max-width: 920px;
+}
+.titleText {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.outer2 > div {
+  padding: 1em;
+  width: 100%;
+}
+.outer2 > div > h4 {
+  font-size: 3rem;
+  margin: 0;
+}
+.outer2 > div > p {
+  font-size: 1rem;
+}
+
+/* first section */
+.outer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner {
+  text-align: center;
+  height: fit-content;
+}
+.inner3 {
+  font-size: 5rem;
+  margin: 0;
+}
+.inner1 {
+  font-size: 2rem;
+}
+.innerp {
+  font-size: 1rem;
+}
+
+/* second section */
+
+.outer2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.outPrime2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pill {
+  background-color: rosybrown;
+  padding: 8px;
+  border-radius: 50px;
+  margin: 4px;
+}
+
+
+/* Media */
+@media screen and (min-width: 576px) {
+  .inner3 {
+    font-size: 10rem;
+  }
+  .inner1 {
+    font-size: 4rem;
+  }
+  .innerp {
+    font-size: 1.5rem;
+  }
+
+  /* second section */
+  .outer2 {
+    flex-wrap: nowrap;
+  }
+  .outer2 > div {
+    width: 50%;
+  }
+}
