@@ -11,6 +11,7 @@ body {
 }
 .titleText {
   font-family: "Fjalla One", sans-serif;
+  font-size: 3rem;
 }
 
 .outer2 > div {
@@ -65,6 +66,10 @@ body {
   margin: 4px;
 }
 
+/* third section */
+.mailClass{
+  font-size: 1.2rem;
+}
 
 /* Media */
 @media screen and (min-width: 576px) {
@@ -84,5 +89,10 @@ body {
   }
   .outer2 > div {
     width: 50%;
+  }
+
+  /* third section */
+  .mailClass{
+    font-size: 2rem;
   }
 }
