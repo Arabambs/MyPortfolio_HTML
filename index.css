@@ -70,11 +70,22 @@ body {
 .mailClass{
   font-size: 1.2rem;
   color: black;
+  text-decoration: none;
+}
+.iconsContainer > span > a > i{
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
 }
 .iconsContainer > span > a > i{
   font-size: 5em;
   line-height: 1.03125em;
   vertical-align: -0.1875em;
+  margin: 5px;
+}
+
+.iconsContainer > span > a{
+  text-decoration: none;
 }
 
 /* Media */
