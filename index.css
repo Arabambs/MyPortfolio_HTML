@@ -3,6 +3,12 @@
 body {
   background-color: #948b89;
   font-family: "Comfortaa", cursive;
+  background: rgb(148, 139, 137);
+  background: radial-gradient(
+    circle,
+    rgba(148, 139, 137, 1) 48%,
+    rgba(70, 70, 70, 1) 100%
+  );
 }
 
 /* General class */
@@ -55,9 +61,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.outPrime2{
-    display: flex;
-    flex-wrap: wrap;
+.outPrime2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 .pill {
   background-color: rosybrown;
@@ -67,41 +73,41 @@ body {
 }
 
 /* third section */
-.mailClass{
+.mailClass {
   font-size: 1.2rem;
   color: black;
   text-decoration: none;
 }
-.iconsContainer{
+.iconsContainer {
   display: flex;
   justify-content: center;
   margin-top: 13px;
 }
-.iconsContainer > span > a > i{
+.iconsContainer > span > a > i {
   font-size: 5em;
   line-height: 1.03125em;
   vertical-align: -0.1875em;
   margin: 5px;
 }
 
-.iconsContainer > span > a{
+.iconsContainer > span > a {
   text-decoration: none;
 }
 
 /* Icon editing 3rd section */
-#linkedinId{
-  color:#0072b1  ;
+#linkedinId {
+  color: #0072b1;
 }
-#githubId{
+#githubId {
   color: #171515;
 }
-#facebookId{
-  color: #3b5998 ;
+#facebookId {
+  color: #3b5998;
 }
-#twitterId{
+#twitterId {
   color: #00acee;
 }
-#codepenId{
+#codepenId {
   color: #131417;
 }
 /* Media */
@@ -125,7 +131,7 @@ body {
   }
 
   /* third section */
-  .mailClass{
+  .mailClass {
     font-size: 2rem;
   }
 }
