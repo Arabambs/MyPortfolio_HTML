@@ -57,6 +57,7 @@ body {
 .hellodontE{
 width: 212px;
 margin: 0 auto;
+margin-bottom: -23px;
 }
 
 /* second section */
@@ -130,7 +131,7 @@ margin: 0 auto;
     height: 400px;
     width: 530px;
     margin-left: -60px;
-    margin-bottom: -50px;
+    margin-bottom: -111px;
   }
  
 
@@ -155,7 +156,9 @@ margin: 0 auto;
 @media screen and (min-width: 577px) and (max-width: 847px)  {
   .hellodontE{
     margin: 0 auto;
+    margin-bottom: -106px;
     
   }
+  
 
 }
